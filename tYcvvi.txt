@@ -1,0 +1,12 @@
+diskpart
+list disk
+select disk #
+clean
+create partition primary
+format fs=exFAT 
+assign letter=[letter]
+
+
+other formats: FAT
+
+EDIT
